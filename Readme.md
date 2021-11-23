@@ -1,4 +1,4 @@
-Assignment (BimaXpress)
+Assignment (BimaXpress) By ISHAN INDRANIYA
 1. Download Project ZIP & Un-zip it
 2. In project folder right click and open powershell
 (Step 3 only if you skip downloading from github repository, else not required)
