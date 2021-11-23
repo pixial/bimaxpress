@@ -1,4 +1,5 @@
-Assignment (BimaXpress) By ISHAN INDRANIYA
+# Assignment (BimaXpress) By ISHAN INDRANIYA
+
 1. Download Project ZIP & Un-zip it
 2. In project folder right click and open powershell
 (Step 3 only if you skip downloading from github repository, else not required)
@@ -9,13 +10,13 @@ Assignment (BimaXpress) By ISHAN INDRANIYA
 
 If error message like 'nodemon.ps1 cannot be loaded because running scripts is disabled on this system.' while executing cmd 'nodemon server' apper then you require to set scripts to unrestricted.
 Open Powershell and enter
-1. 'Get-ExecutionPolicy'
-    # You should get 'Restricted'
-2. Run this command to make it 'Unrestricted': 
+1. 'Get-ExecutionPolicy':- 
+    You should get 'Restricted'
+3. Run this command to make it unrestricted:- 
    'Set-ExecutionPolicy Unrestricted'
-3. Again check execution policy changed by running this command:
-    'Get-ExecutionPolicy'
-    # You should get 'Unrestricted'
+3. Again check execution policy changed by running this command:-
+    'Get-ExecutionPolicy', 
+    You should get Unrestricted
 
 You can now run 'nodemon server'
 
