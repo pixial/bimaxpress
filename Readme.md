@@ -7,10 +7,24 @@ Assignment (BimaXpress) By ISHAN INDRANIYA
 5. Again open project folder & open backend folder
 6. Write click and open powershell to write cmd 'nodemon server'
 
+If error message like 'nodemon.ps1 cannot be loaded because running scripts is disabled on this system.' while executing cmd 'nodemon server' apper then you require to set scripts to unrestricted.
+Open Powershell and enter
+1. 'Get-ExecutionPolicy'
+    # You should get 'Restricted'
+2. Run this command to make it 'Unrestricted': 
+   'Set-ExecutionPolicy Unrestricted'
+3. Again check execution policy changed by running this command:
+    'Get-ExecutionPolicy'
+    # You should get 'Unrestricted'
+
+You can now run 'nodemon server'
+
 (In case of any issue with backend try cmd also:
 1. 'npm install express cors mangoose dotenv'
 2. 'npm install nodemon'
 )
+
+
 
 Here are few screenshots of Project work and cmd:
 ![image](https://user-images.githubusercontent.com/54826738/143004062-a9e95794-dabc-474e-8f68-9fe526db6756.png)
