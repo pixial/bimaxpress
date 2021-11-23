@@ -1,0 +1,163 @@
+.CreateRecord {
+    margin-left: 250px;
+}
+
+.statusDiv {
+    padding: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.322);
+    font-size: 16px;
+}
+
+.track {
+    display: inline;
+}
+
+.track .trackNumber {
+    border: 2px solid rgb(163, 163, 163);
+    color: rgb(163, 163, 163);
+    border-radius: 80%;
+    padding: 4px 10px;
+}
+
+.track .trackName {
+    display: inline-block;
+    border: 2px solid rgb(163, 163, 163);
+    color: rgb(163, 163, 163);
+    border-radius: 16px;
+    padding: 3px 9px;
+    padding-left: 40px;
+    margin-left: -32px;
+    height: 35px;
+}
+
+.seprationTrack {
+    margin: 0 5px;
+    color: rgb(163, 163, 163);
+}
+
+.activetrack {
+    color: white !important;
+    border-color: white !important;
+    background-color: rgba(240, 248, 255, 0.267);
+}
+
+.tpaDropdownDiv {
+    margin-left: 40px;
+    margin-top: 10px;
+    font-size: 20px !important;
+    font-weight: 500;
+    color: white;
+}
+
+.tpaSelect {
+    width: 40%;
+}
+
+.tpaSelect .ant-select-selector,
+.PDSelect .ant-select-selector {
+    background-color: #3f3f3f !important;
+    color: white !important;
+}
+
+.tpaSelect .ant-select-arrow,
+.PDSelect .ant-select-arrow {
+    color: white !important;
+}
+
+.PDSelect {
+    width: 80%;
+}
+
+.createRecBtns {
+    position: absolute;
+    color: black;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    bottom: 20px;
+    right: 105px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.createRecBtns:hover {
+    cursor: pointer;
+    background-color: aliceblue;
+}
+
+.submitBtn {
+    color: black;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: 500;
+    position: relative;
+    left: 86%;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.submitBtn:hover {
+    cursor: pointer;
+    background-color: aliceblue;
+}
+
+.createRecBtns .smIcon {
+    position: relative;
+    top: 4px;
+    font-size: 18px;
+}
+
+.LeftDetails,
+.RightDetails {
+    display: inline-block;
+    width: 45%;
+    margin-left: 40px;
+}
+
+.LeftDetails {
+    border-right: 1px solid rgba(255, 255, 255, 0.336);
+}
+
+.PDlabel {
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.836);
+    margin-bottom: 10px;
+}
+
+.PDinputField .ant-picker {
+    background-color: #3f3f3f !important;
+    color: rgba(255, 255, 255, 0.747) !important;
+}
+
+.PDinputField .ant-picker .ant-picker-input input {
+    color: rgba(255, 255, 255, 0.747) !important;
+}
+
+.PDinputField .ant-input {
+    background-color: #3f3f3f !important;
+    color: rgba(255, 255, 255, 0.747);
+}
+
+.PDinputField {
+    width: 90%;
+    color: white !important;
+}
+
+.PDinputField .ant-radio-group .ant-radio-wrapper span {
+    color: rgba(255, 255, 255, 0.747);
+}
+
+@media (max-width: 1067px) {
+    .LeftDetails,
+    .RightDetails {
+        width: 90%;
+        overflow-x: hidden;
+    }
+    .LeftDetails {
+        border-right: none;
+    }
+    .submitBtn {
+        left: 77%;
+    }
+}

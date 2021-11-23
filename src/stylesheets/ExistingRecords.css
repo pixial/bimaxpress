@@ -1,0 +1,111 @@
+.ExistingRecordMain {
+    margin-left: 250px;
+}
+
+.ExistingRecCustom {
+    padding: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.322);
+    font-size: 16px;
+}
+
+.SearchSMIcon {
+    position: relative;
+    left: 36px;
+    top: 6px;
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.664);
+}
+
+.ExistingRecSearch {
+    background: rgb(57, 57, 57);
+    background: linear-gradient( 101deg, rgba(57, 57, 57, 0.8830882694874825) 6%, rgba(174, 173, 173, 0.6169818269104517) 83%, rgba(91, 91, 91, 0.8522759445575105) 98%);
+    font-size: 17px;
+    outline: none;
+    border: 1px solid rgba(255, 255, 255, 0.664);
+    padding: 5px;
+    padding-left: 42px;
+    color: rgba(255, 255, 255, 0.767);
+    border-radius: 8px;
+    width: 35%;
+}
+
+.ExistingRecSearch:focus {
+    border-color: white;
+    box-shadow: 0 0 4px 0 white;
+}
+
+.CustomRecordBtn {
+    background-color: #494949;
+    padding: 5px 12px;
+    border: none;
+    border-radius: 4px;
+    margin-left: 15px;
+    color: rgba(255, 255, 255, 0.822);
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.CustomRecordBtn:hover {
+    color: rgba(255, 255, 255, 0.904);
+    background-color: #5a5a5a;
+}
+
+.CustomRecordBtn .smIcon {
+    position: relative;
+    top: 6px;
+}
+
+.CustomResultPopOver {
+    color: white !important;
+}
+
+.ant-popover-inner {
+    background-color: #54545434 !important;
+}
+
+.ant-popover-arrow-content {
+    background-color: #54545434 !important;
+}
+
+.ant-popover-inner .ant-popover-inner-content .ant-checkbox-wrapper {
+    color: white !important;
+}
+
+.statsDiv {
+    display: inline-block;
+    margin-left: 15px;
+    font-size: 16px;
+    color: white;
+}
+
+.CustomRecordDeleteDiv {
+    position: absolute;
+    right: 15px;
+    top: 75px;
+}
+
+.CustomRecordDeleteDiv .deleteBtn {
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+.RecordsTabel {
+    padding: 10px 40px;
+}
+
+.RecordsTabel .table {
+    color: white !important;
+}
+
+.RecordsTabel .table .thead-dark .bg-dark {
+    background-color: #494949 !important;
+}
+
+.tableRowDeleteBtn {
+    background-color: transparent;
+    color: red;
+    border: none;
+    padding: 0;
+    margin-left: 8px;
+}
